@@ -1,0 +1,22 @@
+table  td{
+    margin: 0px;
+    padding:0px;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+/* table{
+    border: 2px solid black;
+}
+tr td{
+    margin-bottom:3px solid black;
+} */
+td{
+    height: 50px;
+    width: 50px;
+}
+#one td:nth-child(even){
+    background-color: black;
+}
+#two td:nth-child(odd){
+    background-color: black;
+}
